@@ -63,12 +63,14 @@ class Trie:
             for i in range(len(prefix)-1):  
                 tmp = tmp + prefix[i] 
         tam = ""
+        ln = 0
         for char in tmp:
             tam = tam + char
             if char not in node.child:
                 return TP  # Trả về danh sách 
             node = node.child[char]
-            if node.is_end_of_word == True:
+            ln += 1
+            if ln > 1 and node.is_end_of_word == True:
                 TP.append((tam,node.translations))
         # Sử dụng tmp để tìm từ có tiền tố giống tmp
         
