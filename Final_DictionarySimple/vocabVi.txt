@@ -1,515 +1,1380 @@
 a: một (tính từ)
+
 abandon: bỏ rơi (động từ)
+abandon: từ bỏ (động từ)
+
 abandoned: bị bỏ rơi (tính từ)
+abandoned: hoang vắng (tính từ)
+
 ability: khả năng (danh từ)
+ability: tài năng (danh từ)
+
 able: có khả năng (tính từ)
+able: có năng lực (tính từ)
+
 about: về (giới từ)
+about: khoảng (trạng từ)
+
 above: ở trên (giới từ)
-abroad: ở nước ngoài (giới từ)
+above: cao hơn (trạng từ)
+
+abroad: ở nước ngoài (trạng từ)
+abroad: ra nước ngoài (trạng từ)
+
 absence: sự vắng mặt (danh từ)
+absence: tình trạng thiếu (danh từ)
+
 absent: vắng mặt (tính từ)
+absent: thiếu (tính từ)
+
 absolute: tuyệt đối (tính từ)
+absolute: hoàn toàn (tính từ)
+
 absolutely: tuyệt đối (trạng từ)
+absolutely: hoàn toàn (trạng từ)
+
 absorb: hấp thụ (động từ)
-abuse: lạm dụng (động từ, danh từ)
+absorb: thu hút (động từ)
+
+abuse: lạm dụng (động từ)
+abuse: hành hạ (động từ)
+abuse: sự lạm dụng (danh từ)
+abuse: sự hành hạ (danh từ)
+
 academic: học thuật (tính từ)
+academic: giáo sư, giảng viên (danh từ)
+
 accent: giọng (danh từ)
+accent: trọng âm (danh từ)
+
 accept: chấp nhận (động từ)
+accept: thừa nhận (động từ)
+
 acceptable: chấp nhận được (tính từ)
+acceptable: có thể chấp thuận (tính từ)
+
 access: tiếp cận (danh từ)
+access: truy cập (danh từ)
+
 accident: tai nạn (danh từ)
+accident: sự cố (danh từ)
+
 accidental: tình cờ (tính từ)
+accidental: ngẫu nhiên (tính từ)
+
 accidentally: tình cờ (trạng từ)
+accidentally: ngẫu nhiên (trạng từ)
 
 accommodation: chỗ ở (danh từ)
+accommodation: sự thích nghi (danh từ)
+
 accompany: đi kèm (động từ)
+accompany: hộ tống (động từ)
+
 according to: theo (giới từ)
+according to: dựa theo (giới từ)
 
 account: tài khoản (danh từ)
+account: sự kể lại (danh từ)
+account: bản báo cáo (danh từ)
+
 accurate: chính xác (tính từ)
+accurate: đúng đắn (tính từ)
+
 accurately: chính xác (trạng từ)
+accurately: đúng đắn (trạng từ)
+
 accuse: buộc tội (động từ)
+accuse: tố cáo (động từ)
+
 achieve: đạt được (động từ)
+achieve: hoàn thành (động từ)
+
+achievement:
+
 achievement: thành tựu (danh từ)
+achievement: sự đạt được (danh từ)
+
 acid: axit (danh từ)
+acid: chua chát (tính từ)
+
 acknowledge: thừa nhận (động từ)
+acknowledge: công nhận (động từ)
+
 acquire: thu được (động từ)
+acquire: đạt được (động từ)
+
 across: băng qua (giới từ)
+across: bên kia (giới từ)
+
 act: hành động (danh từ)
+act: hành vi (danh từ)
+act: diễn xuất (động từ)
+act: đóng vai (động từ)
 
 action: hành động (danh từ)
+action: động tác (danh từ)
+
 active: tích cực (tính từ)
+active: hoạt động (tính từ)
 
 actively: tích cực (trạng từ)
+actively: hăng hái (trạng từ)
 
 activity: hoạt động (danh từ)
+activity: sự tích cực (danh từ)
+
 actor: diễn viên nam (danh từ)
+actor: người hành động (danh từ)
+
 actress: diễn viên nữ (danh từ)
+
 actual: thực tế (tính từ)
+actual: có thật (tính từ)
+
 actually: thực ra (trạng từ)
+actually: thực sự (trạng từ)
+
 adapt: thích nghi (động từ)
+adapt: điều chỉnh (động từ)
+
 add: thêm vào (động từ)
+add: cộng (động từ)
+
 addition: sự thêm vào (danh từ)
+addition: phép cộng (danh từ)
+
 additional: bổ sung (tính từ)
+additional: thêm vào (tính từ)
+
 address: địa chỉ (danh từ)
+address: bài diễn văn (danh từ)
+address: gửi đến (động từ)
+address: phát biểu (động từ)
+
 adequate: đủ (tính từ)
+adequate: thích hợp (tính từ)
+
 adequately: đủ (trạng từ)
+adequately: thích hợp (trạng từ)
+
 adjust: điều chỉnh (động từ)
+adjust: sửa lại cho đúng (động từ)
+
 admiration: sự ngưỡng mộ (danh từ)
+admiration: sự cảm phục (danh từ)
+
 admire: ngưỡng mộ (động từ)
+admire: khâm phục (động từ)
+
 admit: thừa nhận (động từ)
+admit: cho vào (động từ)
+
 adopt: áp dụng (động từ)
+adopt: nhận nuôi (động từ)
 
 adult: người lớn (danh từ)
+adult: trưởng thành (tính từ)
 
 advance: tiến lên (động từ)
+advance: phát triển (động từ)
+advance: sự tiến bộ (danh từ)
+advance: tiền ứng trước (danh từ)
 
 advanced: tiên tiến (tính từ)
+advanced: cao cấp (tính từ)
+
 advantage: ưu điểm (danh từ)
+advantage: lợi thế (danh từ)
 
 adventure: phiêu lưu (danh từ)
+adventure: cuộc phiêu lưu (danh từ)
+
 advertise: quảng cáo (động từ)
+advertise: thông báo (động từ)
+
 advertisement: quảng cáo (danh từ)
+advertisement: tờ quảng cáo (danh từ)
+
 advertising: quảng cáo (danh từ)
+advertising: ngành quảng cáo (danh từ)
+
 advice: lời khuyên (danh từ)
+advice: sự tư vấn (danh từ)
+
 advise: khuyên bảo (động từ)
+advise: tư vấn (động từ)
+
 affair: vấn đề (danh từ)
+affair: chuyện tình cảm (danh từ)
+
 affect: ảnh hưởng (động từ)
+affect: tác động (động từ)
+
 affection: tình cảm (danh từ)
+affection: sự yêu mến (danh từ)
 
 afford: đủ khả năng (động từ)
+afford: có thể mua được (động từ)
+
 afraid: sợ (tính từ)
+afraid: lo lắng (tính từ)
+
 after: sau (giới từ)
+after: sau khi (liên từ)
+
 afternoon: buổi chiều (danh từ)
+afternoon: xế chiều (danh từ)
+
 afterwards: sau này (trạng từ)
+afterwards: sau đó (trạng từ)
+
 again: lại (trạng từ)
+again: nữa (trạng từ)
+
 against: chống lại (giới từ)
+against: đối lập (giới từ)
+
 age: tuổi (danh từ)
+age: thời đại (danh từ)
+age: lão hóa (động từ)
+
 aged: đã già (tính từ)
+aged: lớn tuổi (tính từ)
+
 agency: cơ quan (danh từ)
+agency: đại lý (danh từ)
+
 agent: đại lý (danh từ)
+agent: tác nhân (danh từ)
 
 aggressive: hung dữ (tính từ)
+aggressive: quyết đoán (tính từ)
+
 ago: trước (trạng từ)
+ago: cách đây (trạng từ)
+
 agree: đồng ý (động từ)
+agree: tán thành (động từ)
+
 agreement: thỏa thuận (danh từ)
+agreement: hợp đồng (danh từ)
 
 ahead: phía trước (trạng từ)
+ahead: dẫn đầu (trạng từ)
+
 aid: viện trợ (danh từ)
+aid: giúp đỡ (danh từ)
+aid: hỗ trợ (động từ)
 
 aim: mục tiêu (danh từ)
+aim: nhắm (động từ)
+aim: cố gắng (động từ)
 
 air: không khí (danh từ)
+air: bầu không khí (danh từ)
+air: phát sóng (động từ)
+air: phơi bày (động từ)
+
 aircraft: máy bay (danh từ)
+aircraft: phi cơ (danh từ)
+
 airport: sân bay (danh từ)
+airport: phi trường (danh từ)
+
 alarm: báo động (danh từ)
+alarm: sự hoảng sợ (danh từ)
+alarm: làm hoảng sợ (động từ)
+alarm: báo động (động từ)
+
 alarmed: hoảng sợ (tính từ)
+alarmed: lo lắng (tính từ)
 
 alarming: đáng sợ (tính từ)
+alarming: báo động (tính từ)
+
 alcohol: rượu (danh từ)
+alcohol: chất cồn (danh từ)
+
 alcoholic: nghiện rượu (tính từ)
+alcoholic: người nghiện rượu (danh từ)
+
 alive: sống (tính từ)
+alive: còn tồn tại (tính từ)
+
 all: tất cả (tính từ)
+all: mọi thứ (đại từ)
+
 all right: ổn (tính từ)
+all right: được rồi (trạng từ)
+
 allied: đồng minh (tính từ)
+allied: liên kết (tính từ)
+
 allow: cho phép (động từ)
+allow: chấp nhận (động từ)
 
 ally: đồng minh (danh từ)
+ally: liên kết (động từ)
+
 almost: gần như (trạng từ)
+almost: hầu như (trạng từ)
 alone: một mình (tính từ)
+alone: cô độc (tính từ)
 
 along: dọc theo (giới từ)
+along: cùng với (giới từ)
+
 alongside: bên cạnh (giới từ)
+alongside: cùng với (giới từ)
+
 aloud: to (trạng từ)
+aloud: lớn tiếng (trạng từ)
 
 alphabet: bảng chữ cái (danh từ)
+
 alphabetical: theo thứ tự bảng chữ cái (tính từ)
+
 alphabetically: theo thứ tự bảng chữ cái (trạng từ)
+
 already: đã (trạng từ)
+already: sẵn sàng (trạng từ)
+
 also: cũng (trạng từ)
+also: ngoài ra (trạng từ)
+
 alter: thay đổi (động từ)
+alter: sửa đổi (động từ)
+
 alternative: lựa chọn (danh từ)
+alternative: thay thế (danh từ)
 
 alternatively: nếu không (trạng từ)
+alternatively: lựa chọn khác (trạng từ)
+
 although: mặc dù (liên từ)
+although: tuy nhiên (liên từ)
+
 altogether: toàn bộ (trạng từ)
+altogether: hoàn toàn (trạng từ)
+
 always: luôn luôn (trạng từ)
+always: mãi mãi (trạng từ)
+
 amaze: làm kinh ngạc (động từ)
+amaze: làm sững sờ (động từ)
+
 amazed: kinh ngạc (tính từ)
+amazed: sững sờ (tính từ)
+
 amazing: kinh ngạc (tính từ)
+amazing: tuyệt vời (tính từ)
+
 ambition: hoài bão (danh từ)
+ambition: tham vọng (danh từ)
+
 ambulance: xe cứu thương (danh từ)
+
 among, amongst: giữa (giới từ)
+among, amongst: trong số (giới từ)
 
 amount: số lượng (danh từ)
+amount: tổng cộng (danh từ)
+
 amuse: làm vui (động từ)
+amuse: giải trí (động từ)
+
 amused: vui vẻ (tính từ)
+amused: thích thú (tính từ)
+
 amusing: vui vẻ (tính từ)
+amusing: hài hước (tính từ)
+
 analyse, analyze: phân tích (động từ)
+
 analysis: phân tích (danh từ)
+analysis: sự phân tích (danh từ)
+
 ancient: cổ xưa (tính từ)
+ancient: lâu đời (tính từ)
+
 and: và (liên từ)
+
 anger: sự tức giận (danh từ)
+anger: cơn giận (danh từ)
+
 angle: góc (danh từ)
+angle: quan điểm (danh từ)
+
 angrily: một cách tức giận (trạng từ)
+angrily: giận dữ (trạng từ)
+
 angry: tức giận (tính từ)
+angry: giận dữ (tính từ)
+
 animal: động vật (danh từ)
+animal: thú vật (danh từ)
+
 ankle: mắt cá chân (danh từ)
+
 anniversary: kỷ niệm (danh từ)
+anniversary: ngày kỷ niệm (danh từ)
+
 announce: công bố (động từ)
+announce: thông báo (động từ)
 
 annoy: làm phiền (động từ)
+annoy: quấy rầy (động từ)
+
 annoyed: bực bội (tính từ)
+annoyed: khó chịu (tính từ)
 
 annoying: làm phiền (tính từ)
+annoying: gây khó chịu (tính từ)
+
 annual: hàng năm (tính từ)
+annual: thường niên (tính từ)
+
 annually: hàng năm (trạng từ)
+annually: mỗi năm (trạng từ)
+
 another: một cái khác (đại từ)
+another: người khác (đại từ)
+
 answer: trả lời (động từ)
+answer: câu trả lời (danh từ)
+
 anti: chống lại (tính từ)
+anti: đối kháng (tính từ)
 
 anticipate: dự đoán (động từ)
-anxiety: lo lắng (danh từ)
-anxious: lo lắng (tính từ)
-anxiously: lo lắng (trạng từ)
-any: bất kỳ (đại từ)
+anticipate: mong đợi (động từ)
 
-anyone (anybod): bất kỳ ai (đại từ)
+anxiety: lo lắng (danh từ)
+anxiety: sự lo ngại (danh từ)
+
+anxious: lo lắng (tính từ)
+anxious: bồn chồn (tính từ)
+
+anxiously: lo lắng (trạng từ)
+anxiously: hồi hộp (trạng từ)
+
+any: bất kỳ (đại từ)
+any: một chút nào (tính từ)
+
+anyone (anybody): bất kỳ ai (đại từ)
+anyone (anybody): người nào (đại từ)
 
 anything: bất kỳ cái gì (đại từ)
+anything: điều gì (đại từ)
 
 anyway: dù sao đi nữa (trạng từ)
+anyway: bất cứ cách nào (trạng từ)
+
 anywhere: bất kỳ đâu (trạng từ)
+anywhere: bất cứ nơi nào (trạng từ)
+
 apart: riêng biệt (trạng từ)
+apart: cách xa (trạng từ)
+
 apart from: ngoại trừ (giới từ)
+apart from: ngoài ra (giới từ)
+
 apart from, aside from: ngoại trừ (giới từ)
+apart from, aside from: ngoài ra (giới từ)
+
 apartment: căn hộ (danh từ)
+
 apologize: xin lỗi (động từ)
+apologize: tạ lỗi (động từ)
+
 apparent: rõ ràng (tính từ)
+apparent: hiển nhiên (tính từ)
 
 apparently: hình như (trạng từ)
+apparently: có vẻ như (trạng từ)
 
 appeal: hấp dẫn (động từ)
+appeal: kháng cáo (động từ)
+
 appear: xuất hiện (động từ)
+appear: có vẻ (động từ)
+
 appearance: sự xuất hiện (danh từ)
+appearance: ngoại hình (danh từ)
+
 apple: quả táo (danh từ)
 
 application: ứng dụng (danh từ)
+application: đơn xin (danh từ)
+
 apply: áp dụng (động từ)
+apply: nộp đơn (động từ)
+
 appoint: bổ nhiệm (động từ)
+appoint: chỉ định (động từ)
 
 appointment: cuộc hẹn (danh từ)
+appointment: sự bổ nhiệm (danh từ)
+
 appreciate: đánh giá cao (động từ)
+appreciate: cảm kích (động từ)
 
 approach: tiếp cận (động từ)
+approach: phương pháp (danh từ)
+
 appropriate (to, for): phù hợp (tính từ)
+appropriate (to, for): thích hợp (tính từ)
 
 approval: sự chấp thuận (danh từ)
+approval: sự phê duyệt (danh từ)
+
 approve: phê duyệt (động từ)
+approve: tán thành (động từ)
+
 approving: chấp thuận (tính từ)
+approving: đồng tình (tính từ)
+
 approximate: gần đúng (tính từ)
+approximate: xấp xỉ (tính từ)
+
 approximately: gần đúng (trạng từ)
-April (abbr Apr): tháng tư (danh từ)
+approximately: khoảng chừng (trạng từ)
+
+April: tháng tư (danh từ)
+
 area: khu vực (danh từ)
+area: diện tích (danh từ)
+
 argue: tranh luận (động từ)
+argue: cãi nhau (động từ)
+
 argument: cuộc tranh cãi (danh từ)
+argument: lý lẽ (danh từ)
+
 arise: nảy sinh (động từ)
+arise: phát sinh (động từ)
+
 arm: cánh tay (danh từ)
+arm: vũ trang (động từ)
 
 armed: có vũ trang (tính từ)
+armed: sẵn sàng (tính từ)
+
 arms: vũ khí (danh từ)
+arms: cánh tay (danh từ)
+
 army: quân đội (danh từ)
+army: binh đoàn (danh từ)
+
 around: xung quanh (giới từ)
+around: khoảng (trạng từ)
+
 arrange: sắp xếp (động từ)
+arrange: tổ chức (động từ)
+
 arrangement: sự sắp xếp (danh từ)
+arrangement: kế hoạch (danh từ)
+
 arrest: bắt giữ (động từ)
+arrest: sự bắt giữ (danh từ)
+
 arrival: sự đến (danh từ)
+arrival: sự xuất hiện (danh từ)
+
 arrive (at, in): đến (động từ)
+arrive (at, in): tới nơi (động từ)
+
 arrow: mũi tên (danh từ)
+arrow: dấu mũi tên (danh từ)
+
 art: nghệ thuật (danh từ)
+art: mỹ thuật (danh từ)
+
 article: bài báo (danh từ)
+article: điều khoản (danh từ)
+
 artificial: nhân tạo (tính từ)
+artificial: giả tạo (tính từ)
+
 artificially: nhân tạo (trạng từ)
+artificially: giả tạo (trạng từ)
 artist: nghệ sĩ (danh từ)
+
 artistic: có tài nghệ thuật (tính từ)
+artistic: thuộc về nghệ thuật (tính từ)
+
 as: như (liên từ)
+as: khi (liên từ)
+as: bởi vì (liên từ)
+as: giống như (giới từ)
+
 as well: cũng (trạng từ)
+
 ashamed: xấu hổ (tính từ)
+ashamed: hổ thẹn (tính từ)
 
 aside: sang một bên (trạng từ)
+aside: để dành (trạng từ)
+
 ask: hỏi (động từ)
+ask: yêu cầu (động từ)
+
 asleep: ngủ (tính từ)
+asleep: say ngủ (tính từ)
 
 aspect: khía cạnh (danh từ)
+aspect: diện mạo (danh từ)
+
 assist: giúp đỡ (động từ)
+assist: trợ giúp (động từ)
+
 assistance: sự giúp đỡ (danh từ)
+assistance: sự hỗ trợ (danh từ)
 
 assistant: trợ lý (danh từ)
+assistant: phụ tá (danh từ)
+
 associate: liên kết (động từ)
+associate: kết hợp (động từ)
+
 associated with: liên quan đến (tính từ)
+associated with: gắn liền với (tính từ)
+
 association: hiệp hội (danh từ)
+association: sự liên kết (danh từ)
+
 assume: giả định (động từ)
+assume: đảm nhận (động từ)
 
 assure: đảm bảo (động từ)
+assure: cam đoan (động từ)
+
 atmosphere: bầu không khí (danh từ)
+atmosphere: không khí (danh từ)
+
 atom: nguyên tử (danh từ)
+
 attach: đính kèm (động từ)
+attach: gắn liền (động từ)
+
 attached: đính kèm (tính từ)
+attached: gắn bó (tính từ)
 
 attack: tấn công (động từ)
+attack: cuộc tấn công (danh từ)
+
 attempt: cố gắng (động từ)
+attempt: nỗ lực (danh từ)
+
 attempted: cố gắng (tính từ)
+attempted: không thành công (tính từ)
+
 attend: tham dự (động từ)
+attend: chú ý (động từ)
+
 attention: sự chú ý (danh từ)
+attention: sự quan tâm (danh từ)
+
 attitude: thái độ (danh từ)
+attitude: quan điểm (danh từ)
+
 attorney: luật sư (danh từ)
+attorney: đại diện pháp lý (danh từ)
+
 attract: thu hút (động từ)
+attract: hấp dẫn (động từ)
+
 attraction: sự hấp dẫn (danh từ)
+attraction: điểm thu hút (danh từ)
+
 attractive: hấp dẫn (tính từ)
+attractive: thu hút (tính từ)
+
 audience: khán giả (danh từ)
-August (abbr Aug): tháng tám (danh từ)
+audience: thính giả (danh từ)
+
+August: tháng tám (danh từ)
+
 aunt: cô (danh từ)
+aunt: dì (danh từ)
+
 author: tác giả (danh từ)
+author: người sáng tác (danh từ)
+
 authority: quyền lực (danh từ)
+authority: thẩm quyền (danh từ)
+
 automatic: tự động (tính từ)
+automatic: tự nhiên (tính từ)
+
 automatically: tự động (trạng từ)
+automatically: một cách tự nhiên (trạng từ)
+
 autumn: mùa thu (danh từ)
+autumn: mùa gặt (danh từ)
 
 available: có sẵn (tính từ)
+available: sẵn sàng (tính từ)
 
 average: trung bình (tính từ)
+average: bình thường (tính từ)
+
 avoid: tránh (động từ)
+avoid: né (động từ)
+
 awake: tỉnh táo (tính từ)
+awake: thức dậy (động từ)
+
 award: giải thưởng (danh từ)
+award: trao giải (động từ)
+
 aware: nhận thức (tính từ)
+aware: ý thức (tính từ)
+
 away: xa (trạng từ)
+away: rời xa (trạng từ)
+
 awful: kinh khủng (tính từ)
+awful: tồi tệ (tính từ)
+
 awfully: kinh khủng (trạng từ)
+awfully: cực kỳ (trạng từ)
+
 awkward: lúng túng (tính từ)
+awkward: khó xử (tính từ)
+
 awkwardly: lúng túng (trạng từ)
+awkwardly: vụng về (trạng từ)
+
 back: lưng (danh từ)
+back: trở lại (động từ)
+back: phía sau (trạng từ)
+
 background: bối cảnh (danh từ)
+background: nền tảng (danh từ)
+
 backward: lùi lại (tính từ)
+backward: chậm phát triển (tính từ)
+
 backwards: lùi lại (trạng từ)
+backwards: ngược lại (trạng từ)
+
 bacteria: vi khuẩn (danh từ)
 
 bad: xấu (tính từ)
+bad: tệ (tính từ)
+
 badly: tồi tệ (trạng từ)
+badly: nghiêm trọng (trạng từ)
+
 bad-tempered: cáu kỉnh (tính từ)
+bad-tempered: nóng tính (tính từ)
+
 bag: túi (danh từ)
+bag: bao (danh từ)
+
 baggage: hành lý (danh từ)
+baggage: đồ đạc (danh từ)
+
 bake: nướng (động từ)
+bake: làm bánh (động từ)
+
 balance: cân bằng (danh từ)
+balance: số dư (danh từ)
 
 ball: quả cầu (danh từ)
+ball: quả bóng (danh từ)
+
 ban: cấm (động từ)
+ban: lệnh cấm (danh từ)
+
 band: ban nhạc (danh từ)
+band: dải (danh từ)
+
 bandage: băng gạc (danh từ)
+bandage: băng bó (động từ)
+
 bank: ngân hàng (danh từ)
+bank: bờ (danh từ)
+
 bar: thanh (danh từ)
+bar: quán rượu (danh từ)
+
 bargain: mặc cả (danh từ)
+bargain: thương lượng (động từ)
+
 barrier: rào cản (danh từ)
+barrier: chướng ngại (danh từ)
+
 base: cơ sở (danh từ)
+base: nền tảng (danh từ)
 
 basic: cơ bản (tính từ)
+basic: đơn giản (tính từ)
+
 basically: cơ bản (trạng từ)
+basically: chủ yếu (trạng từ)
+
 basis: cơ sở (danh từ)
+basis: nền tảng (danh từ)
+
 bath: bồn tắm (danh từ)
+bath: tắm (danh từ)
+
 bathroom: phòng tắm (danh từ)
+bathroom: nhà vệ sinh (danh từ)
+
 battery: pin (danh từ)
+battery: ắc quy (danh từ)
+
 battle: trận đánh (danh từ)
+battle: cuộc chiến (danh từ)
+
 bay: vịnh (danh từ)
+bay: ngăn (danh từ)
 
 be sick: ốm (động từ)
+be sick: nôn mửa (động từ)
+
 beach: bãi biển (danh từ)
+beach: bờ biển (danh từ)
+
 beak: mỏ (danh từ)
+beak: mũi khoan (danh từ)
+
 bear: gấu (danh từ)
+bear: chịu đựng (động từ)
+
 beard: râu (danh từ)
+beard: chòm râu (danh từ)
+
 beat: đánh bại (động từ)
+beat: nhịp (danh từ)
+
 beautiful: đẹp (tính từ)
+beautiful: xinh đẹp (tính từ)
+
 beautifully: đẹp (trạng từ)
+beautifully: tuyệt vời (trạng từ)
+
 beauty: vẻ đẹp (danh từ)
+beauty: nhan sắc (danh từ)
+
 because: bởi vì (liên từ)
+because: do (liên từ)
 
 become: trở thành (động từ)
+become: trở nên (động từ)
+
 bed: giường (danh từ)
+bed: chỗ nằm (danh từ)
+
 bedroom: phòng ngủ (danh từ)
+bedroom: buồng ngủ (danh từ)
+
 beef: thịt bò (danh từ)
+beef: lời phàn nàn (danh từ)
+
 beer: bia (danh từ)
+beer: cốc bia (danh từ)
+
 before: trước (giới từ)
+before: trước đây (trạng từ)
+
 begin: bắt đầu (động từ)
+begin: khởi đầu (động từ)
+
 beginning: sự bắt đầu (danh từ)
+beginning: phần đầu (danh từ)
 
 behalf: phía (danh từ)
+behalf: thay mặt (danh từ)
 
 behalf, on sb’s behalf: thay mặt cho ai đó (cụm từ)
+
 behave: ứng xử (động từ)
-behaviour, behavior: hành vi (danh từ)
+behave: hành xử (động từ)
+
+behavior: hành vi (danh từ)
+behavior: cách cư xử (danh từ)
 
 behind: phía sau (giới từ)
+behind: đằng sau (trạng từ)
+
 belief: niềm tin (danh từ)
+belief: tín ngưỡng (danh từ)
+
 believe: tin (động từ)
+believe: nghĩ rằng (động từ)
+
 bell: chuông (danh từ)
+bell: cái chuông (danh từ)
 belong: thuộc về (động từ)
+
 below: dưới (giới từ)
+below: thấp hơn (trạng từ)
+
 belt: dây đai (danh từ)
+belt: thắt lưng (danh từ)
+
 bend: uốn cong (động từ)
+bend: khúc cua (danh từ)
+
 beneath: phía dưới (giới từ)
+beneath: không xứng (trạng từ)
+
 benefit: lợi ích (danh từ)
+benefit: đem lại lợi ích (động từ)
+
 bent: cong (tính từ)
+bent: quyết tâm (tính từ)
+
 beside: bên cạnh (giới từ)
+
 bet: đặt cược (động từ)
+bet: sự đặt cược (danh từ)
+
 better, best: tốt hơn, tốt nhất (tính từ)
+better, best: khỏe hơn, khỏe nhất (tính từ)
+
 betting: sự đặt cược (danh từ)
+betting: cờ bạc (danh từ)
+
 between: giữa (giới từ)
+between: ở giữa (trạng từ)
+
 beyond: vượt ra ngoài (giới từ)
+beyond: ngoài tầm (trạng từ)
+
 bicycle (bike): xe đạp (danh từ)
+
 bid: đặt giá (động từ)
+bid: sự đặt giá (danh từ)
+
 big: lớn (tính từ)
+big: quan trọng (tính từ)
+
 bill: hóa đơn (danh từ)
+bill: mỏ chim (danh từ)
+
 bin: thùng rác (danh từ)
+
 biology: sinh học (danh từ)
+
 bird: chim (danh từ)
+
 birth: sự sinh ra (danh từ)
+birth: sự ra đời (danh từ)
+
 birthday: ngày sinh nhật (danh từ)
+
 biscuit: bánh quy (danh từ)
+biscuit: bánh ngọt (danh từ)
+
 bit: phần nhỏ (danh từ)
+bit: mảnh (danh từ)
+
 bite: cắn (động từ)
+bite: vết cắn (danh từ)
+
 bitter: đắng (tính từ)
+bitter: cay đắng (tính từ)
+
 bitterly: một cách đắng cay (trạng từ)
+bitterly: cực kỳ (trạng từ)
+
 black: đen (tính từ)
+black: tối tăm (tính từ)
+
 blade: lưỡi (danh từ)
+blade: phiến (danh từ)
+
 blame: trách móc (động từ)
+blame: sự trách móc (danh từ)
+
 blank: trống rỗng (tính từ)
+blank: chỗ trống (danh từ)
+
 blankly: một cách trống rỗng (trạng từ)
+blankly: ngây ra (trạng từ)
+
 blind: mù (tính từ)
+blind: mành (danh từ)
+
 block: khối (danh từ)
+block: ngăn chặn (động từ)
+
 blonde (blond): tóc vàng hoe (tính từ)
+blonde (blond): người tóc vàng (danh từ)
+
 blood: máu (danh từ)
+blood: dòng máu (danh từ)
+
 blow: thổi (động từ)
+blow: cú đánh (danh từ)
+
 blue: xanh dương (tính từ)
+blue: buồn bã (tính từ)
+
 board: bảng (danh từ)
+board: lên tàu (động từ)
+
 boat: thuyền (danh từ)
+
 body: cơ thể (danh từ)
+body: thân (danh từ)
+
 boil: sôi (động từ)
+boil: đun sôi (động từ)
+
 bomb: bom (danh từ)
+bomb: đánh bom (động từ)
+
 bone: xương (danh từ)
+bone: khung (danh từ)
+
 book: sách (danh từ)
+book: đặt chỗ (động từ)
+
 boot: ủng (danh từ)
+boot: khởi động lại (động từ)
+
 border: biên giới (danh từ)
+border: ranh giới (danh từ)
+
 bore: làm chán (động từ)
+bore: lỗ khoan (danh từ)
+
 bored: chán (tính từ)
+bored: buồn chán (tính từ)
+
 boring: nhạt nhẽo (tính từ)
-born ( be born): sinh ra (động từ)
+boring: chán ngắt (tính từ)
+
+born (be born): sinh ra (động từ)
+born (be born): ra đời (động từ)
+
 borrow: mượn (động từ)
+borrow: vay (động từ)
+
 boss: sếp (danh từ)
+boss: ông chủ (danh từ)
+
 both: cả hai (đại từ)
+both: cả (định từ)
+
 bother: làm phiền (động từ)
+bother: sự phiền toái (danh từ)
+
 bottle: chai (danh từ)
+bottle: đóng chai (động từ)
+
 bottom: đáy (danh từ)
+bottom: phần dưới (danh từ)
+
 bound (bound to): buộc (động từ)
+bound (bound to): chắc chắn (tính từ)
+
 bowl: bát (danh từ)
+bowl: cái tô (danh từ)
+
 box: hộp (danh từ)
+box: đấm bốc (động từ)
+
 boy: con trai (danh từ)
+boy: cậu bé (danh từ)
+
 boyfriend: bạn trai (danh từ)
+boyfriend: người yêu (danh từ)
+
 brain: não (danh từ)
+brain: trí tuệ (danh từ)
+
 branch: nhánh (danh từ)
+branch: chi nhánh (danh từ)
+
 brand: thương hiệu (danh từ)
+brand: nhãn hiệu (danh từ)
+
 brave: dũng cảm (tính từ)
+brave: gan dạ (tính từ)
+
 bread: bánh mỳ (danh từ)
+
 break: phá vỡ (động từ)
+break: giải lao (danh từ)
+
 breakfast: bữa sáng (danh từ)
+breakfast: ăn sáng (động từ)
+
 breast: vú (danh từ)
+breast: ngực (danh từ)
+
 breath: hơi thở (danh từ)
+breath: làn gió (danh từ)
+
 breathe: hít thở (động từ)
+breathe: thổi (động từ)
+
 breathing: sự thở (danh từ)
+breathing: hơi thở (danh từ)
+
 breed: nuôi dưỡng (động từ)
+breed: sinh sản (động từ)
+
 brick: gạch (danh từ)
+brick: cục gạch (danh từ)
+
 bring: mang đến (động từ)
+bring: đem lại (động từ)
+
 broad: rộng (tính từ)
+broad: bao quát (tính từ)
+
 broadcast: truyền sóng (động từ)
+broadcast: phát sóng (danh từ)
+
 broadly: rộng rãi (trạng từ)
+broadly: chủ yếu (trạng từ)
+
 broken: bị hỏng (tính từ)
+broken: đổ vỡ (tính từ)
+
 brother: anh em trai (danh từ)
+
 brown: nâu (tính từ)
+brown: màu nâu (danh từ)
+
 brush: chải (động từ)
+brush: cái chổi (danh từ)
+
 bubble: bong bóng (danh từ)
+bubble: nổi bong bóng (động từ)
+
 budget: ngân sách (danh từ)
+budget: dự trù (động từ)
+
 build: xây dựng (động từ)
+build: tạo dựng (động từ)
+
 building: toà nhà (danh từ)
+building: công trình xây dựng (danh từ)
+
 bullet: đạn (danh từ)
+bullet: đầu đạn (danh từ)
+
 bunch: bó (danh từ)
+bunch: chùm (danh từ)
+
 burn: đốt cháy (động từ)
+burn: bị cháy (động từ)
+
 burnt: đã đốt (tính từ)
+burnt: bị cháy (tính từ)
+
 burst: nổ tung (động từ)
+burst: sự nổ (danh từ)
 bury: chôn cất (động từ)
+bury: che khuất (động từ)
+
 bus: xe buýt (danh từ)
+bus: đa phương tiện (danh từ)
+
 bush: bụi cây (danh từ)
+bush: bụi rậm (danh từ)
+
 business: kinh doanh (danh từ)
+business: công việc (danh từ)
+
 busy: bận rộn (tính từ)
+busy: hoạt động (tính từ)
+
 but: nhưng (liên từ)
+but: ngoại trừ (giới từ)
+
 butter: bơ (danh từ)
+butter: sự bôi bơ (động từ)
+
 button: nút (danh từ)
+button: cú nhấn (danh từ)
+
 buy: mua (động từ)
+buy: sự mua (danh từ)
+
 buyer: người mua (danh từ)
+buyer: sự mua (danh từ)
+
 by: bởi (giới từ)
+by: theo (giới từ)
+
 bye: tạm biệt (câu chào)
+bye: sự chia tay (danh từ)
+
 cabinet: tủ (danh từ)
+cabinet: kỷ luật (danh từ)
+
 cable: dây cáp (danh từ)
+cable: dây điện (danh từ)
+
 cake: bánh (danh từ)
+cake: cái bánh (danh từ)
+
 calculate: tính toán (động từ)
+calculate: ước tính (động từ)
+
 calculation: phép tính (danh từ)
+calculation: sự tính toán (danh từ)
+
 call: gọi điện (động từ)
+call: sự gọi (danh từ)
+
 calm: bình tĩnh (tính từ)
-calmly: một cách bình tĩnh (trạng từ)
+calm: sự bình tĩnh (danh từ)
+
 camera: máy ảnh (danh từ)
+camera: sự chụp ảnh (danh từ)
+
 camp: trại (danh từ)
+camp: cắm trại (động từ)
+
 campaign: chiến dịch (danh từ)
+campaign: sự chiến dịch (danh từ)
+
 camping: cắm trại (danh từ)
+camping: sự cắm trại (danh từ)
+
 can: có thể (động từ)
+can: hộp (danh từ)
+
 cancel: hủy bỏ (động từ)
+cancel: sự hủy bỏ (danh từ)
+
 cancer: ung thư (danh từ)
+cancer: sự phát triển không kiểm soát (danh từ)
+
 candidate: ứng viên (danh từ)
+candidate: sự ứng cử (danh từ)
+
 candy: kẹo (danh từ)
+candy: ngọt (tính từ)
+
 cap: mũ (danh từ)
+cap: đỉnh (danh từ)
+
 capable: có khả năng (tính từ)
+capable: đáng tin cậy (tính từ)
+
 capacity: năng lực (danh từ)
+capacity: sức chứa (danh từ)
+
 capital: thủ đô (danh từ)
+capital: vốn (danh từ)
+
 captain: đội trưởng (danh từ)
+captain: thuyền trưởng (danh từ)
+
 capture: bắt giữ (động từ)
+capture: sự bắt giữ (danh từ)
+
 car: ô tô (danh từ)
+car: xe hơi (danh từ)
+
 card: thẻ (danh từ)
+card: lá bài (danh từ)
+
 cardboard: bìa cứng (danh từ)
+cardboard: thùng giấy (danh từ)
+
 care: chăm sóc (động từ)
+care: sự quan tâm (danh từ)
+
 career: sự nghiệp (danh từ)
+career: sự nghiệp (danh từ)
+career: sự điều hành (danh từ)
+
 careful: cẩn thận (tính từ)
+careful: sự cẩn thận (danh từ)
+
 carefully: cẩn thận (trạng từ)
+carefully: một cách cẩn thận (trạng từ)
+
 careless: cẩu thả (tính từ)
+careless: sự cẩu thả (danh từ)
+
 carelessly: một cách cẩu thả (trạng từ)
+carelessly: cẩu thả (trạng từ)
+
 carpet: thảm (danh từ)
+carpet: sự trải thảm (động từ)
+
 carrot: cà rốt (danh từ)
+carrot: sự thưởng (danh từ)
+
 carry: mang (động từ)
+carry: sự mang (danh từ)
+
 case: trường hợp (danh từ)
+case: hộp (danh từ)
+
 cash: tiền mặt (danh từ)
+cash: thanh toán tiền mặt (động từ)
+
 cast: đóng vai (động từ)
+cast: sự đóng vai (danh từ)
+
 castle: lâu đài (danh từ)
+castle: sự xây dựng lâu đài (danh từ)
+
 cat: mèo (danh từ)
+cat: con mèo (danh từ)
+
 catch: bắt (động từ)
+catch: sự bắt (danh từ)
+
 category: hạng mục (danh từ)
+category: sự phân loại (danh từ)
+
 cause: nguyên nhân (danh từ)
+cause: sự gây ra (danh từ)
+
 CD: đĩa CD (danh từ)
+CD: đĩa (danh từ)
+
 cease: ngừng (động từ)
+cease: sự ngừng (danh từ)
+
 ceiling: trần nhà (danh từ)
+ceiling: sự giới hạn (danh từ)
+
 celebrate: kỷ niệm (động từ)
+celebrate: sự kỷ niệm (danh từ)
+
 celebration: sự kỷ niệm (danh từ)
+celebration: sự ăn mừng (danh từ)
+
 cell: tế bào (danh từ)
+cell: phòng giam (danh từ)
+
 cellphone, cellular phone: điện thoại di động (danh từ)
+
 cent: xu (danh từ)
-centimetre: centimet (danh từ)
-centimetre, centimeter: centimet (đơn vị đo chiều dài)
+cent: phần trăm (danh từ)
+
+centimetre :xen-ti-mét (danh từ)
+centimeter: xen-ti-mét (danh từ)
+centimetre : đo lường chiều dài (danh từ)
+centimeter: đo lường chiều dài (danh từ)
+
 central: trung tâm (tính từ)
+central: sự tập trung (danh từ)
+
 centre: trung tâm (danh từ)
+centre: sự tập trung (danh từ)
+
 century: thế kỷ (danh từ)
+century: một thời kỳ 100 năm (danh từ)
+
 ceremony: nghi lễ (danh từ)
 certain: chắc chắn (tính từ)
 certainly: chắc chắn (trạng từ)
@@ -660,6 +1525,51 @@ confuse: làm bối rối (động từ)
 confused: bối rối (tính từ)
 confusing: gây nhầm lẫn (tính từ)
 confusion: sự nhầm lẫn (danh từ)
+curb: kiềm chế (động từ)
+cure: chữa trị (động từ)
+curious: tò mò (tính từ)
+curiously: tò mò (trạng từ)
+curl: xoắn (động từ)
+curly: xoăn (tính từ)
+current: hiện tại (tính từ)
+currently: hiện tại (trạng từ)
+curtain: rèm (danh từ)
+curve: đường cong (danh từ)
+curved: cong (tính từ)
+custom: phong tục (danh từ)
+customer: khách hàng (danh từ)
+customs: hải quan (danh từ)
+cut: cắt (động từ)
+cycle: chu kỳ (danh từ)
+cycling: đi xe đạp (danh từ)
+dad: bố (danh từ)
+daily: hàng ngày (tính từ)
+damage: hỏng hóc (động từ)
+damp: ẩm ướt (tính từ)
+dance: nhảy múa (động từ)
+dancer: vũ công (danh từ)
+dancing: việc nhảy múa (danh từ)
+danger: nguy hiểm (danh từ)
+dangerous: nguy hiểm (tính từ)
+dare: dám (động từ)
+dark: tối (tính từ)
+data: dữ liệu (danh từ)
+date: ngày tháng (danh từ)
+daughter: con gái (danh từ)
+day: ngày (danh từ)
+dead: chết (tính từ)
+deaf: điếc (tính từ)
+deal: thỏa thuận (danh từ)
+dear: thân mến (tính từ)
+death: cái chết (danh từ)
+debate: tranh luận (danh từ)
+debt: nợ (danh từ)
+decade: thập kỷ (danh từ)
+decay: phân hủy (động từ)
+December: tháng Mười Hai
+decide: quyết định (động từ)
+decision: quyết định (danh từ)
+declare: tuyên bố (động từ)
 congratulations: chúc mừng (danh từ)
 congress: quốc hội (danh từ)
 connect: kết nối (động từ)
@@ -765,51 +1675,6 @@ cultural: văn hóa (tính từ)
 culture: văn hóa (danh từ)
 cup: cốc (danh từ)
 cupboard: tủ (danh từ)
-curb: kiềm chế (động từ)
-cure: chữa trị (động từ)
-curious: tò mò (tính từ)
-curiously: tò mò (trạng từ)
-curl: xoắn (động từ)
-curly: xoăn (tính từ)
-current: hiện tại (tính từ)
-currently: hiện tại (trạng từ)
-curtain: rèm (danh từ)
-curve: đường cong (danh từ)
-curved: cong (tính từ)
-custom: phong tục (danh từ)
-customer: khách hàng (danh từ)
-customs: hải quan (danh từ)
-cut: cắt (động từ)
-cycle: chu kỳ (danh từ)
-cycling: đi xe đạp (danh từ)
-dad: bố (danh từ)
-daily: hàng ngày (tính từ)
-damage: hỏng hóc (động từ)
-damp: ẩm ướt (tính từ)
-dance: nhảy múa (động từ)
-dancer: vũ công (danh từ)
-dancing: việc nhảy múa (danh từ)
-danger: nguy hiểm (danh từ)
-dangerous: nguy hiểm (tính từ)
-dare: dám (động từ)
-dark: tối (tính từ)
-data: dữ liệu (danh từ)
-date: ngày tháng (danh từ)
-daughter: con gái (danh từ)
-day: ngày (danh từ)
-dead: chết (tính từ)
-deaf: điếc (tính từ)
-deal: thỏa thuận (danh từ)
-dear: thân mến (tính từ)
-death: cái chết (danh từ)
-debate: tranh luận (danh từ)
-debt: nợ (danh từ)
-decade: thập kỷ (danh từ)
-decay: phân hủy (động từ)
-December (abbr Dec): tháng Mười Hai (viết tắt)
-decide: quyết định (động từ)
-decision: quyết định (danh từ)
-declare: tuyên bố (động từ)
 decline: suy giảm (động từ)
 decorate: trang trí (động từ)
 decoration: đồ trang trí (danh từ)
@@ -932,7 +1797,7 @@ division: sự chia (danh từ)
 divorce: ly hôn (danh từ)
 divorced: ly hôn (tính từ)
 do: làm (động từ)
-doctor (abbr Dr): bác sĩ (viết tắt)
+doctor: bác sĩ (danh từ)
 document: tài liệu (danh từ)
 dog: chó (danh từ)
 dollar: đô la (danh từ)
@@ -1057,7 +1922,7 @@ essentially: về cơ bản (trạng từ)
 establish: thiết lập (động từ)
 estate: tài sản (danh từ)
 estimate: ước tính (động từ)
-etc., et cetera: và các loại khác (viết tắt)
+etc., et cetera: và các loại khác  
 euro: đồng euro (danh từ)
 even: ngay cả (trạng từ)
 evening: buổi tối (danh từ)
@@ -1164,7 +2029,7 @@ favourite: ưa thích (tính từ)
 fear: sợ (động từ)
 feather: lông vũ (danh từ)
 feature: đặc điểm (danh từ)
-February (abbr Feb): tháng Hai (viết tắt)
+February: tháng Hai  
 federal: liên bang (tính từ)
 fee: phí (danh từ)
 feed: cho ăn (động từ)
@@ -1257,7 +2122,7 @@ frequent: thường xuyên (tính từ)
 frequently: thường xuyên (trạng từ)
 fresh: tươi (tính từ)
 freshly: tươi (trạng từ)
-Friday (abbr Fri): thứ Sáu (viết tắt)
+Friday: thứ Sáu  
 fridge: tủ lạnh (danh từ)
 friend: bạn bè (danh từ)
 friendly: thân thiện (tính từ)
@@ -1339,7 +2204,7 @@ gradual: dần dần (tính từ)
 gradually: dần dần (phó từ)
 grain: hạt (danh từ)
 gram: gram (danh từ)
-gram, gramme (abbr g, gm): gram (danh từ)
+gram, gramme: gram (danh từ)
 grammar: ngữ pháp (danh từ)
 grand: lớn (tính từ)
 grandchild: cháu (danh từ)
@@ -1474,7 +2339,7 @@ hunting: sự săn (danh từ)
 hurry: vội vã (động từ)
 hurt: làm tổn thương (động từ)
 husband: chồng (danh từ)
-i.e.: nghĩa là (tức là) (viết tắt)
+i.e.: nghĩa là (tức là)  
 ice: đá (danh từ)
 ice cream: kem (danh từ)
 idea: ý tưởng (danh từ)
@@ -1617,7 +2482,7 @@ its: của nó (đại từ)
 itself: bản thân nó (đại từ)
 jacket: áo khoác (danh từ)
 jam: mứt (danh từ)
-January (abbr Jan): tháng một (viết tắt)
+January : tháng một  
 jealous: ghen tuông (tính từ)
 jeans: quần jean (danh từ)
 jelly: thạch (danh từ)
@@ -1633,9 +2498,9 @@ joy: niềm vui (danh từ)
 judge: thẩm phán (danh từ)
 judgement: sự phán đoán (danh từ)
 juice: nước trái cây (danh từ)
-July (abbr Jul): tháng bảy (viết tắt)
+July: tháng bảy  
 jump: nhảy (động từ)
-June (abbr Jun): tháng sáu (viết tắt)
+June: tháng sáu  
 junior: dưới (tính từ)
 just: chỉ (phó từ)
 justice: công bằng (danh từ)
@@ -1797,7 +2662,7 @@ manufacturer: nhà sản xuất (danh từ)
 manufacturing: sự sản xuất (danh từ)
 many: nhiều (tính từ)
 map: bản đồ (danh từ)
-March (abbr Mar): tháng Ba (danh từ)
+March: tháng Ba (danh từ)
 mark: dấu, đánh dấu (danh từ, động từ)
 market: chợ, thị trường (danh từ)
 marketing: tiếp thị (danh từ)
@@ -1879,7 +2744,7 @@ mobile phone (mobile): điện thoại di động (danh từ)
 model: mô hình (danh từ)
 modern: hiện đại (tính từ)
 moment: khoảnh khắc (danh từ)
-Monday (abbr Mon): thứ Hai (danh từ)
+Monday: thứ Hai (danh từ)
 money: tiền (danh từ)
 monitor: màn hình, giám sát (danh từ, động từ)
 month: tháng (danh từ)
@@ -1985,11 +2850,11 @@ nothing: không có gì (đại từ)
 notice: chú ý (động từ)
 noticeable: đáng chú ý (tính từ)
 novel: tiểu thuyết (danh từ)
-November (abbr Nov): tháng Mười Một (danh từ)
+November: tháng Mười Một (danh từ)
 now: bây giờ (trạng từ)
 nowhere: không nơi nào (trạng từ)
 nuclear: hạt nhân (tính từ)
-number (abbr No): số (danh từ)
+number: số (danh từ)
 nurse: y tá (danh từ)
 nut: hạt (danh từ)
 o'clock: giờ (trạng từ)
@@ -2861,7 +3726,7 @@ through: thông qua (liên từ)
 throughout: khắp (trạng từ)
 throw: ném (động từ)
 thumb: ngón tay cái (danh từ)
-Thursday (abbr Thur, Thurs): Thứ Năm (danh từ)
+Thursday: Thứ Năm (danh từ)
 thus: như vậy (trạng từ)
 ticket: vé (danh từ)
 tidy: gọn gàng (tính từ)
@@ -2943,7 +3808,7 @@ trust: tin tưởng (động từ)
 truth: sự thật (danh từ)
 try: thử (động từ)
 tube: ống (danh từ)
-Tuesday (abbr Tue, Tues): Thứ Ba (danh từ)
+Tuesday: Thứ Ba (danh từ)
 tune: giai điệu (danh từ)
 tunnel: đường hầm (danh từ)
 turn: sự quay (danh từ)

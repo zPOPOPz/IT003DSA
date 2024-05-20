@@ -8,6 +8,7 @@ class TrieNode:
         self.is_end_of_word = False
         self.translations = []
 
+All_of_words = []
 class Trie:
     def __init__(self):
         self.root = TrieNode()
@@ -23,6 +24,9 @@ class Trie:
             if char not in node.child:
                 node.child[char] = TrieNode()   #Nếu chưa có ký tự hiện tại trong các nút con của node thì ta tạo một trienode mới
             node = node.child[char]
+        if node.is_end_of_word != True: 
+            All_of_words.append((word,translation))
+
         node.is_end_of_word = True    #Đánh dấu kết thúc của từ
         node.translations.append(translation) #giúp một từ có thể có nhiều nghĩa
 
@@ -34,8 +38,9 @@ class Trie:
                 return []    #Nếu không có ký tự hiện tại trong các nút con của node thì tức là không tồn tại từ này
             node = node.child[char]
         return node.translations if node.is_end_of_word else [] #Nếu node được đánh dấu là kết của một từ thì ta trả về từ đó không thì rỗng
-
-    def _find_words_with_prefix(self, node, prefix, words):
+    
+    def _find_words_with_prefix(self, node, prefix, words, len):
+        if len == 3: return
         if node.is_end_of_word:  #Nếu node này được đánh dấu là node của một từ thì ta thêm từ đó vô words
             words.append((prefix, node.translations))
 
@@ -45,17 +50,17 @@ class Trie:
             Đệ quy gọi hàm _find_words_with_prefix trên mỗi node con, với prefix được cập nhật bằng cách thêm ký tự char và words 
             là danh sách các từ được tìm thấy. Điều này giúp duyệt sâu vào cấu trúc Trie để tìm các từ có tiền tố là prefix.
             """
-            self._find_words_with_prefix(child_node, prefix + char, words)
+            self._find_words_with_prefix(child_node, prefix + char, words,len+1)
     
-    def get_words_with_prefix(self, prefix: str) -> list:
+    def find_same_words(self, prefix: str) -> list:
 
         prefix = prefix.lower()  # Chuẩn hóa từ
         node = self.root
         tmp = ""
         TP = []
-        if len(prefix) == 1: tmp = prefix
+        if len(prefix) <= 2: tmp = prefix
         else:
-            for i in range(max(2,len(prefix)-1)):  
+            for i in range(len(prefix)-1):  
                 tmp = tmp + prefix[i] 
         tam = ""
         for char in tmp:
@@ -67,7 +72,7 @@ class Trie:
                 TP.append((tam,node.translations))
         # Sử dụng tmp để tìm từ có tiền tố giống tmp
         
-        self._find_words_with_prefix(node, tmp, TP)
+        self._find_words_with_prefix(node, tmp, TP,0)
 
         words = []
         #Loại bỏ prefix khỏi list để không in ra chính từ đó
@@ -76,6 +81,9 @@ class Trie:
                 words.append((word,trans))
 
         return words
+                            
+
+    
 
 class DictionaryApp:
     def __init__(self, root, vocabulary_file_en, vocabulary_file_vi, insertEn, insertVi):
@@ -97,7 +105,7 @@ class DictionaryApp:
         self.trie_en = Trie() #Cây trie cho tiếng anh
         self.trie_vi = Trie() #Cây trie cho tiếng việt
         self.root = root
-        self.root.title("Đồ án từ điển Anh Anh, Anh Việt")
+        self.root.title("Đồ án từ điển")
         
 
         #Tạo một biến loại stringvar để lưu trữ loại từ điển
@@ -144,8 +152,18 @@ class DictionaryApp:
         
     
         #Tạo ô kết quả
-        self.ketqua = tk.Text(root, height=30, width=90)
-        self.ketqua.grid(row=7, column=0, columnspan=2, padx=10, pady=10)
+        self.kq = tk.Label(root, text="Kết quả tìm kiếm")
+        self.kq.grid(row=7, column=0, padx=10, pady=10)
+
+        self.ketqua = tk.Text(root, height=10, width = 70)
+        self.ketqua.grid(row=8, column=0, columnspan=2, padx=10, pady=10)
+
+        #Tạo ô những từ gần giống từ cần tìm
+        self.giong = tk.Button(root, text="Một số từ giống với từ của bạn:", command=self.sameWord)
+        self.giong.grid(row=9, column=0, padx=10, pady=10)
+        self.same = tk.Text(root, height=15, width=70)
+        self.same.grid(row=10, column=0, columnspan=2, padx=10, pady=10)
+
 
         self.vocabulary_file_en = vocabulary_file_en
         self.vocabulary_file_vi = vocabulary_file_vi
@@ -211,10 +229,8 @@ class DictionaryApp:
         word = self.tratu.get() #Lấy từ trong ô nhập liệu
         if self.typdict.get() == "English-English":
             translations = self.trie_en.search(word)    #Tìm kiếm trong cây trie tiếng anh
-            words_with_prefix = self.trie_en.get_words_with_prefix(word)  #Tìm các từ gần giống với từ vừa nhập
         else:
             translations = self.trie_vi.search(word) #Tìm kiếm trong cây trie tiếng việt
-            words_with_prefix = self.trie_vi.get_words_with_prefix(word) #Tìm các từ gần giống với từ vừa nhập
         
         self.ketqua.delete(1.0, tk.END) #xóa dữ liệu trong ô kết quả
         if translations:
@@ -222,15 +238,27 @@ class DictionaryApp:
         else:
             result = f"Từ cần tìm: {word}\nÝ nghĩa: Không tìm thấy\n\n"
         
-        if words_with_prefix:
-            result += "Những từ có thể giống với từ bạn vừa nhập:\n"
-            for prefix_word, prefix_translations in words_with_prefix:
+        self.ketqua.insert(tk.END, result) #Thêm dữ liệu result vô ô kết quả
+
+    def sameWord(self):
+        #Vai trò : Tìm kiếm từ
+        word = self.tratu.get() #Lấy từ trong ô nhập liệu
+        if self.typdict.get() == "English-English":
+            words = self.trie_en.find_same_words(word)    #Tìm kiếm trong cây trie tiếng anh
+        else:
+            words = self.trie_vi.find_same_words(word) #Tìm kiếm trong cây trie tiếng việt
+        
+        self.same.delete(1.0, tk.END) #xóa dữ liệu trong ô kết quả
+        
+        if words:
+            result = "Những từ có thể giống với từ bạn vừa nhập:\n"
+            for prefix_word, prefix_translations in words:
                 result += f"{prefix_word}: {', '.join(prefix_translations)}\n"
         else:
-            result += "Không tìm thấy từ nào giống với từ bạn vừa nhập.\n"
+            result = "Không tìm thấy từ nào giống với từ bạn vừa nhập.\n"
         
-        self.ketqua.insert(tk.END, result) #Thêm dữ liệu result vô ô kết quả
-        self.tratu.delete(0, tk.END) #Xóa dữ liệu khỏi ô nhập liệu
+        self.same.delete(1.0, tk.END)
+        self.same.insert(tk.END, result) #Thêm dữ liệu result vô ô kết quả
 
 
 
