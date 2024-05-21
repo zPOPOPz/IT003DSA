@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-#pip install tk
 
 class TrieNode:
     def __init__(self):
@@ -9,15 +8,12 @@ class TrieNode:
         self.translations = []
 
 All_of_words = []
+
 class Trie:
     def __init__(self):
         self.root = TrieNode()
 
     def insert(self, word: str, translation: str):
-
-
-        #Hàm insert đưa các từ vào trong cây trie
-
         word = word.lower()  # Chuẩn hóa từ
         node = self.root
         for char in word:
@@ -37,59 +33,31 @@ class Trie:
             if char not in node.child:
                 return []    #Nếu không có ký tự hiện tại trong các nút con của node thì tức là không tồn tại từ này
             node = node.child[char]
-        return node.translations if node.is_end_of_word else [] #Nếu node được đánh dấu là kết của một từ thì ta trả về từ đó không thì rỗng
+        return node.translations if node.is_end_of_word else [] #Nếu node được đánh dấu là kết của một từ thì ta trả về từ đó không thì rỗng   
     
-    def _find_words_with_prefix(self, node, prefix, words, len):
-        if len == 3: return
-        if node.is_end_of_word:  #Nếu node này được đánh dấu là node của một từ thì ta thêm từ đó vô words
-            words.append((prefix, node.translations))
-
-
+    def _findWordsWithPrefix(self, node: TrieNode, prefix: str, suggestions: list):
+        """
+        Phương thức hỗ trợ tìm kiếm các từ có tiền tố giống với từ được nhập.
+        """
+        if node.is_end_of_word:
+            suggestions.append(prefix)
+        
         for char, child_node in node.child.items():
-            """
-            Đệ quy gọi hàm _find_words_with_prefix trên mỗi node con, với prefix được cập nhật bằng cách thêm ký tự char và words 
-            là danh sách các từ được tìm thấy. Điều này giúp duyệt sâu vào cấu trúc Trie để tìm các từ có tiền tố là prefix.
-            """
-            self._find_words_with_prefix(child_node, prefix + char, words,len+1)
+            self._findWordsWithPrefix(child_node, prefix + char, suggestions)
     
-    def find_same_words(self, prefix: str) -> list:
-
+    def findWordsWithPrefix(self, prefix: str) -> list:
         prefix = prefix.lower()  # Chuẩn hóa từ
         node = self.root
-        tmp = ""
-        TP = []
-        if len(prefix) <= 2: tmp = prefix
-        else:
-            for i in range(len(prefix)-1):  
-                tmp = tmp + prefix[i] 
-        tam = ""
-        ln = 0
-        for char in tmp:
-            tam = tam + char
+        suggestions = []
+        for char in prefix:
             if char not in node.child:
-                return TP  # Trả về danh sách 
+                return []    #Nếu không có ký tự hiện tại trong các nút con của node thì tức là không tồn tại từ này
             node = node.child[char]
-            ln += 1
-            if ln > 1 and node.is_end_of_word == True:
-                TP.append((tam,node.translations))
-        # Sử dụng tmp để tìm từ có tiền tố giống tmp
-        
-        self._find_words_with_prefix(node, tmp, TP,0)
-
-        words = []
-        #Loại bỏ prefix khỏi list để không in ra chính từ đó
-        for word,trans in TP:
-            if not word == prefix:
-                words.append((word,trans))
-
-        return words
-                            
-
-    
+        self._findWordsWithPrefix(node, prefix, suggestions)
+        return suggestions
 
 class DictionaryApp:
     def __init__(self, root, vocabulary_file_en, vocabulary_file_vi, insertEn, insertVi):
-
         """
         Trước hết đây là chức năng của một số lớp thuộc thư viện tkinter mà em sẽ dùng :
         tk.Label : Được sử dụng để tạo nhãn (label) trong giao diện người dùng.
@@ -103,75 +71,84 @@ class DictionaryApp:
         messagebox.showinfo(...) : được sử dụng để hiển thị một hộp thoại thông báo với một tin nhắn thông tin.
         messagebox.showwarning(...) : được sử dụng để hiển thị một hộp thoại cảnh báo (warning dialog) cho người dùng.
         """
-
         self.trie_en = Trie() #Cây trie cho tiếng anh
         self.trie_vi = Trie() #Cây trie cho tiếng việt
         self.root = root
+        self.search_history = []
         self.root.title("Đồ án từ điển")
         
-
         #Tạo một biến loại stringvar để lưu trữ loại từ điển
         self.typdict = tk.StringVar()
         self.typdict.set("English-Vietnamese")
 
-        
-        
         #Tạo một menu cho phép chọn giữa từ diển anh anh và anh việt
-    
         self.type = tk.Label(root, text="Loại từ điển:")
         self.type.grid(row=0, column=0, padx=10, pady=10)
         self.menu = tk.OptionMenu(root, self.typdict, "English-English", "English-Vietnamese", command=self.loadVocab)
         self.menu.grid(row=0, column=1, padx=10, pady=10)
         
-
-        #Tạo 2 ô nhập liệu(entry) để nhập từ với mong muốn thêm những từ cá nhân vào trong từ điển 
+        #Tạo 3 ô nhập liệu(entry) để nhập từ với mong muốn thêm những từ cá nhân vào trong từ điển 
+        self.Them = tk.Label(root, text = "Đóng góp từ vựng:")
+        self.Them.grid(row = 1, column = 1, padx = 10, pady = 10)
         self.tu = tk.Label(root, text="Từ:")
-        self.tu.grid(row=1, column=0, padx=10, pady=10)
+        self.tu.grid(row=2, column=0, padx=10, pady=10)
         self.nhaptu = tk.Entry(root)
-        self.nhaptu.grid(row=1, column=1, padx=10, pady=10)
+        self.nhaptu.grid(row=2, column=1, padx=10, pady=10)
         
+        self.pronounce = tk.Label(root, text = "Phiên âm:")
+        self.pronounce.grid(row=3, column=0,padx=10,pady=10)
+        self.phienam = tk.Entry(root)
+        self.phienam.grid(row=3,column=1,padx=10,pady=10)
+
         self.translation = tk.Label(root, text="Dịch nghĩa:")
-        self.translation.grid(row=2, column=0, padx=10, pady=10)
+        self.translation.grid(row=4, column=0, padx=10, pady=10)
         self.nhapnghia = tk.Entry(root)
-        self.nhapnghia.grid(row=2, column=1, padx=10, pady=10)
+        self.nhapnghia.grid(row=4, column=1, padx=10, pady=10)
 
         #2 button giúp thêm và xóa các từ được người dùng đóng góp
         self.themtu = tk.Button(root, text="Thêm", command=self.insertWord)
-        self.themtu.grid(row=3, column=0, columnspan=2, pady=10)
+        self.themtu.grid(row=5, column=0, columnspan=2, pady=10)
         
         self.xoatu = tk.Button(root, text="Reset", command=self.resetFiles)
-        self.xoatu.grid(row=4, column=0, columnspan=2, pady=10)
+        self.xoatu.grid(row=6, column=0, columnspan=2, pady=10)
         
-
         #Tạo ô tra từ điển và nút tra từ
         self.searchword = tk.Label(root, text="Từ cần tra:")
-        self.searchword.grid(row=5, column=0, padx=10, pady=10)
+        self.searchword.grid(row=7, column=0, padx=10, pady=10)
         self.tratu = tk.Entry(root)
-        self.tratu.grid(row=5, column=1, padx=10, pady=10)
+        self.tratu.grid(row=7, column=1, padx=10, pady=10)
+        self.tratu.bind("<KeyRelease>", self.suggestWords)  # Kích hoạt gợi ý từ khi nhập liệu
         
-        self.search_button = tk.Button(root, text="Tra", command=self.searchWord)
-        self.search_button.grid(row=6, column=0, columnspan=2, pady=10)
-        
-    
+        self.search_button = tk.Button(root, text="Tra🔍", command=self.searchWord)
+        self.search_button.grid(row=8, column=0, columnspan=2, pady=10)
+        # Tạo nút hoặc biểu tượng để thêm từ yêu thích
+        self.add_favorite_button = tk.Button(root, text="❤️", command=self.addToFavorites)
+        self.add_favorite_button.grid(row=8, column=1, padx=10, pady=10)
         #Tạo ô kết quả
         self.kq = tk.Label(root, text="Kết quả tìm kiếm")
-        self.kq.grid(row=7, column=0, padx=10, pady=10)
-
+        self.kq.grid(row=9, column=0, padx=10, pady=10)
         self.ketqua = tk.Text(root, height=10, width = 70)
-        self.ketqua.grid(row=8, column=0, columnspan=2, padx=10, pady=10)
+        self.ketqua.grid(row=10, column=0, columnspan=2, padx=10, pady=10)
 
-        #Tạo ô những từ gần giống từ cần tìm
-        self.giong = tk.Button(root, text="Một số từ giống với từ của bạn:", command=self.sameWord)
-        self.giong.grid(row=9, column=0, padx=10, pady=10)
-        self.same = tk.Text(root, height=15, width=70)
-        self.same.grid(row=10, column=0, columnspan=2, padx=10, pady=10)
-
+        self.history_button = tk.Button(root, text="Lịch sử tìm kiếm ↺", command=self.displaySearchHistory)
+        self.history_button.grid(row=11, column=0, columnspan=2, pady=10)
 
         self.vocabulary_file_en = vocabulary_file_en
         self.vocabulary_file_vi = vocabulary_file_vi
         self.insertEn = insertEn
         self.insertVi = insertVi
         self.loadVocab()
+
+        # Khởi tạo danh sách từ yêu thích
+        self.favorite_words = set()
+
+        # Tạo nút hoặc biểu tượng để mở cửa sổ danh sách từ yêu thích
+        self.favorites_window_button = tk.Button(root, text="Danh sách từ yêu thích❤️ ", command=self.openFavoritesWindow)
+        self.favorites_window_button.grid(row=12, column=0, columnspan=2, pady=10)
+
+        # Khởi tạo cửa sổ danh sách từ yêu thích
+        self.favorites_window = None
+    
 
     def loadVocab(self, *args):
         """
@@ -199,13 +176,18 @@ class DictionaryApp:
 
     def insertWord(self):
         word = self.nhaptu.get()  #Lấy từ trong ô nhập liệu từ
+        prono = self.phienam.get() #Lấy từ trong ô phiên âm
         translation = self.nhapnghia.get() #Lấy từ trong ô nhập liệu nghĩa
-        if word and translation: #Nếu đã nhập đủ cả từ và nghĩa
-            if self.typdict.get() == "English-English": 
-                self.trie_en.insert(self.root,word, translation)  #Thêm vào cây trie tiếng anh
+        if word and translation and prono: #Nếu đã nhập đủ cả từ và nghĩa
+            if self.typdict.get() == "English-English":
+                prono = "/" + prono + "/"
+                self.trie_en.insert(word,prono) #Thêm phát âm 
+                self.trie_en.insert(word, translation)  #Thêm vào cây trie tiếng anh
                 with open(self.insertEn, "a", encoding="utf-8") as file:
                     file.write(f"{word}: {translation}\n")    #Mở file insert_en và ghi từ vừa nhập vào
             else:
+                prono = "/" + prono + "/"
+                self.trie_vi.insert(word,prono)
                 self.trie_vi.insert(word, translation)  #Thêm vào cây trie tiếng việt
                 with open(self.insertVi, "a", encoding="utf-8") as file:
                     file.write(f"{word}: {translation}\n") #Mở file insert_vi và ghi từ vừa nhập vào
@@ -214,6 +196,7 @@ class DictionaryApp:
             messagebox.showwarning("Lỗi nhập", "Vui lòng nhập cả từ và dịch nghĩa.")
         self.nhaptu.delete(0, tk.END) #Xóa nội dung trong ô nhập liệu từ
         self.nhapnghia.delete(0, tk.END) #Xóa nội dung trong ô nhập liệu chữ
+        self.phienam.delete(0,tk.END)
 
     def resetFiles(self):
         if self.typdict.get() == "English-English":  #Nếu đang là tử điển tiếng anh 
@@ -225,9 +208,27 @@ class DictionaryApp:
                 self.loadVocab()  #Ta load lại từ vựng
             messagebox.showinfo("Thành công", "Đã reset file insert tiếng Việt.")
 
+    def suggestWords(self, event):
+        """
+        Hàm gợi ý các từ có tiền tố giống với từ được nhập.
+        """
+        prefix = self.tratu.get()
+        if self.typdict.get() == "English-English":
+            suggestions = self.trie_en.findWordsWithPrefix(prefix)
+        else:
+            suggestions = self.trie_vi.findWordsWithPrefix(prefix)
+        
+        self.ketqua.delete(1.0, tk.END)
+        if suggestions:
+            result = f"Gợi ý cho '{prefix}':\n"
+            for suggestion in suggestions:
+                result += suggestion + '\n'
+        else:
+            result = f"Không có gợi ý cho '{prefix}'.\n"
+        
+        self.ketqua.insert(tk.END, result)
 
     def searchWord(self):
-        #Vai trò : Tìm kiếm từ
         word = self.tratu.get() #Lấy từ trong ô nhập liệu
         if self.typdict.get() == "English-English":
             translations = self.trie_en.search(word)    #Tìm kiếm trong cây trie tiếng anh
@@ -236,34 +237,67 @@ class DictionaryApp:
         
         self.ketqua.delete(1.0, tk.END) #xóa dữ liệu trong ô kết quả
         if translations:
-            result = f"Từ cần tìm: {word}\nÝ nghĩa: {', '.join(translations)}\n\n"
+            result = f"Từ cần tìm: {word}\n"
+            result += f"Phát âm: {translations[0]}\n"
+            del translations[0]
+            result += "Ý Nghĩa:\n"
+            for st in translations:
+                result = result + st + '\n'
         else:
             result = f"Từ cần tìm: {word}\nÝ nghĩa: Không tìm thấy\n\n"
-        
+
+        self.updateSearchHistory(word) #Thêm từ cần tìm vào ô kết quả
+
         self.ketqua.insert(tk.END, result) #Thêm dữ liệu result vô ô kết quả
+    
 
-    def sameWord(self):
-        #Vai trò : Tìm kiếm từ
+    def updateSearchHistory(self, word):
+        # Thêm từ đã tìm kiếm vào lịch sử và giới hạn số lượng mục trong lịch sử
+        self.search_history.insert(0, word)
+        self.search_history = self.search_history[:10]  # Giới hạn lịch sử tìm kiếm chỉ chứa tối đa 10 mục
+
+    def displaySearchHistory(self):
+        # Hiển thị danh sách lịch sử trong một cửa sổ mới hoặc trong cùng cửa sổ chính của ứng dụng
+        history_window = tk.Toplevel(self.root)
+        history_window.title("Lịch sử tìm kiếm")
+
+        history_label = tk.Label(history_window, text="Lịch sử tìm kiếm:")
+        history_label.pack()
+
+        history_listbox = tk.Listbox(history_window)
+        for word in self.search_history:
+            history_listbox.insert(tk.END, word)
+        history_listbox.pack()
+
+        close_button = tk.Button(history_window, text="Đóng", command=history_window.destroy)
+        close_button.pack()
+
+    def openFavoritesWindow(self):
+        self.favorites_window = tk.Toplevel(self.root)
+        self.favorites_window.title("Danh sách từ yêu thích")
+        self.favorites_listbox = tk.Listbox(self.favorites_window, height=10, width=50)
+        self.favorites_listbox.pack(padx=10, pady=10)
+
+        # Hiển thị danh sách từ yêu thích trong danh sách
+        for word in self.favorite_words:
+            self.favorites_listbox.insert(tk.END, word)
+
+    def removeFromFavorites(self, event):
+        selected_index = self.favorites_listbox.curselection()
+        if selected_index:
+            word = self.favorites_listbox.get(selected_index)
+            self.favorite_words.remove(word)
+            self.favorites_listbox.delete(selected_index)
+            messagebox.showinfo("Thông báo", f"Từ '{word}' đã được loại khỏi danh sách yêu thích.")
+    def addToFavorites(self):
         word = self.tratu.get() #Lấy từ trong ô nhập liệu
-        if self.typdict.get() == "English-English":
-            words = self.trie_en.find_same_words(word)    #Tìm kiếm trong cây trie tiếng anh
-        else:
-            words = self.trie_vi.find_same_words(word) #Tìm kiếm trong cây trie tiếng việt
-        
-        self.same.delete(1.0, tk.END) #xóa dữ liệu trong ô kết quả
-        
-        if words:
-            result = "Những từ có thể giống với từ bạn vừa nhập:\n"
-            for prefix_word, prefix_translations in words:
-                result += f"{prefix_word}: {', '.join(prefix_translations)}\n"
-        else:
-            result = "Không tìm thấy từ nào giống với từ bạn vừa nhập.\n"
-        
-        self.same.delete(1.0, tk.END)
-        self.same.insert(tk.END, result) #Thêm dữ liệu result vô ô kết quả
-
-
-
+        if word:
+            if word in self.favorite_words:
+                self.favorite_words.remove(word)
+                messagebox.showinfo("Thông báo", f"Từ '{word}' đã được xóa khỏi danh sách yêu thích.")
+            else:
+                self.favorite_words.add(word)
+                messagebox.showinfo("Thông báo", f"Từ '{word}' đã được thêm vào danh sách yêu thích.")
 
 if __name__ == "__main__":
     root = tk.Tk()
